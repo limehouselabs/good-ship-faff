@@ -5,7 +5,7 @@ const path = require('path');
 const zlib = require('zlib');
 
 function printHelpAndExit() {
-  console.log(`
+  process.stdout.write(`
 Usage:
  - pack.js <path/to/submarine.sub> [targetdir]
    Unpacks a .sub file to XML.
@@ -15,7 +15,7 @@ Usage:
    Packs an XML file to .sub format.
    If targetdir is specified, the .sub file will be created in that folder.
    Setting environment variable BAROTRAUMA_SUB_DIRECTORY will default to that directory.
-   Otherwise, will pack to the currnet working directory.\n`);
+   Otherwise, will pack to the currnet working directory.\n\n`);
   process.exit(1);
 }
 
@@ -48,7 +48,7 @@ function createSub() {
   const fileOut = fs.createWriteStream(outputFileName);
 
   fileIn.pipe(gzip).pipe(fileOut).on('finish', () => {
-    console.log(`Packed ${fileName}.xml to ${outputFileName}`);
+    process.stdout.write(`Packed ${fileName}.xml to ${outputFileName}\n`);
     process.exit(0);
   });
 }
@@ -70,7 +70,7 @@ function extractXml() {
   const fileOut = fs.createWriteStream(outputFileName);
 
   fileIn.pipe(gunzip).pipe(fileOut).on('finish', () => {
-    console.log(`Extracted ${fileName}.sub to ${outputFileName}`);
+    process.stdout.write(`Extracted ${fileName}.sub to ${outputFileName}\n`);
     process.exit(0);
   });
 }
