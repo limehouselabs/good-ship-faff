@@ -1,4 +1,4 @@
-﻿<Submarine description="Limehouse Labs' attempt at making a submarine that sinks less. (NOTE: It still sinks)" checkval="576267144" price="21000" initialsuppliesspawned="false" type="Player" class="Attack" tags="0" gameversion="0.11.0.10" dimensions="4464,1176" recommendedcrewsizemin="8" recommendedcrewsizemax="12" recommendedcrewexperience="CrewExperienceHigh" requiredcontentpackages="" name="Good Ship Faff">
+﻿<Submarine description="Limehouse Labs' attempt at making a submarine that sinks less. (NOTE: It still sinks)" checkval="1351938983" price="21000" initialsuppliesspawned="false" type="Player" class="Attack" tags="0" gameversion="0.11.0.10" dimensions="4464,1176" recommendedcrewsizemin="8" recommendedcrewsizemax="12" recommendedcrewexperience="CrewExperienceHigh" requiredcontentpackages="" name="Good Ship Faff">
   <Item name="" identifier="signalcheckcomponent" ID="1" rect="1953,320,16,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,logic" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <SignalCheckComponent output="-100" falseoutput="0" targetsignal="1" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
     <Holdable attached="True" holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="5" canbepicked="True" allowingameediting="True" msg="ItemMsgDetachWrench">
@@ -376,7 +376,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="38" rect="-894,-528,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-416;203;-416;264;-1048;264;-1048;-592;-920;-592;-921;-539" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-392;200;-400;264;-1048;264;-1048;-592;-920;-592;-921;-539" />
   </Item>
   <Item name="" identifier="redwire" ID="39" rect="-494,183,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -895,6 +895,7 @@
         <link w="151" />
         <link w="154" />
         <link w="155" />
+        <link w="348" />
       </output>
       <output name="signal_0" />
       <output name="signal_1" />
@@ -965,7 +966,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="152" rect="-783,231,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-480;195;-480;264;-784;264;-787.5;171" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-480;200;-488;264;-808;264;-800;200" />
   </Item>
   <Item name="" identifier="junctionbox" ID="153" rect="-240,210,54,90" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="junctionbox,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <PowerTransfer canbeoverloaded="True" overloadvoltage="1.7" fireprobability="0.15" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="ItemMsgInteractSelect" />
@@ -989,11 +990,11 @@
   </Item>
   <Item name="" identifier="redwire" ID="154" rect="-438,139,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-288;203;-288;264;-584;264;-584;48;-704;48;-699;86" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-280;200;-288;264;-560;264;-572.3867;266.36426;-572.3906;49.364258;-704;48;-699;86" />
   </Item>
   <Item name="" identifier="redwire" ID="155" rect="-418,131,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-288;203;-288;264;-584;264;-584;-208;-648;-208;-648;-171" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-288;200;-296;264;-560;264;-576.8867;267.36328;-575.8906;44.36328;-580;21.183594;-579.5;-208.3164;-648;-208;-648;-171" />
   </Item>
   <Item name="" identifier="junctionbox" ID="156" rect="-86,210,55,88" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="junctionbox,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <PowerTransfer canbeoverloaded="True" overloadvoltage="2" fireprobability="0.15" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="ItemMsgInteractSelect" />
@@ -1017,18 +1018,18 @@
   </Item>
   <Item name="" identifier="redwire" ID="157" rect="-233,177,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-213;165;-200;264;-784;264;-787.5;171" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-224;200;-232;264;-800;264;-792;200" />
   </Item>
   <Item name="" identifier="redwire" ID="158" rect="-92,189,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-58.5;166;-56;251;328;251;312;203" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-56;200;-64;264;320;264;328;200" />
   </Item>
   <Item name="" identifier="vent" ID="159" rect="-161,213,51,51" linked="276" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="vent" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.9" hiddeningame="False">
     <Vent pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
   </Item>
   <Item name="" identifier="redwire" ID="160" rect="-122,213,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-58.5;166;-120;264;-784;264;-787.5;171" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-64;200;-72;264;-792;264;-784;200" />
   </Item>
   <Item name="" identifier="textdisplay" ID="161" rect="-244,236,63,24" noninteractable="False" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.75" hiddeningame="False">
     <LightComponent range="10" castshadows="False" drawbehindsubs="False" ison="True" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="255,255,255,25" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -1109,7 +1110,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="176" rect="-484,-23,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488;-24;-488;8;-424;8;-424;-16" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-476.42578;-13.964844;-476.4297;7.5351562;-464;8;-420.8164;7.602539;-420.82422;-14.397461" />
   </Item>
   <Item name="" identifier="junctionbox" ID="177" rect="43,211,54,90" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="junctionbox,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <PowerTransfer canbeoverloaded="True" overloadvoltage="1.7" fireprobability="0.15" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="ItemMsgInteractSelect" />
@@ -2050,9 +2051,9 @@
     <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-366;504;-368;568;-330;567" />
   </Item>
   <Structure name="Large Inside Wall Cap H2" identifier="inwalllcaph2" ID="347" rect="1403,320,52,48" specialtag="" spritecolor="111,111,111,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.5" texturescale="1,1" textureoffset="0,0" noaitarget="True" disallowedupgrades="" spritedepth="0.03" hiddeningame="False" />
-  <Item name="" identifier="redwire" ID="348" rect="-861,227,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
+  <Item name="" identifier="redwire" ID="348" rect="-293,190,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-544;240;-544;264;-1176;264;-1176;-104;-1944;-104;-1944;-320;-1664;-320;-1664;-576;-1264;-576;-1266;-541" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1266;-541;-1264;-576;-1048;-576;-1048;264;-280;264;-272;200" />
   </Item>
   <Structure name="Large Inside Wall Cap H2" identifier="inwalllcaph2" ID="349" rect="2115,-192,52,48" specialtag="" spritecolor="111,111,111,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.5" texturescale="1,1" textureoffset="0,0" noaitarget="True" disallowedupgrades="" spritedepth="0.03" hiddeningame="False" />
   <Item name="" identifier="bluewire" ID="350" rect="-119,8,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
@@ -2089,7 +2090,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="360" rect="-486,-122,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488;-112;-488;8;-584;8;-584;-16;-599.5;-17.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-492.92188;-116.46484;-492.42188;9.035156;-504;8;-584;8;-584;-16;-605.5;-17.5" />
   </Item>
   <Item name="" identifier="andcomponent" ID="361" rect="-1712,-560,15,14" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,logic" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <AndComponent timeframe="0" output="1" falseoutput="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -2268,7 +2269,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="427" rect="308,222,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-416;203;-416;264;1376;264;1376;8;2008;8;2008;-472;2048;-472;2048;-440" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-400;200;-408;264;1376;264;1376;8;2008;8;2008;-472;2048;-472;2048;-440" />
   </Item>
   <Structure name="Platform Basic" identifier="platform" ID="428" rect="1104,-213,32,27" flippedy="true" specialtag="" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.9" hiddeningame="False" />
   <Item name="" identifier="waterdetector" ID="429" rect="1374,-178,24,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,sensor" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
@@ -2309,7 +2310,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="435" rect="361,212,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="189;328;192;264;-352;264;-352;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="189;328;192;264;-344;264;-336;200" />
   </Item>
   <Item name="" identifier="andcomponent" ID="436" rect="-322,320,15,14" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,logic" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <AndComponent timeframe="0" output="1" falseoutput="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -3049,7 +3050,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="580" rect="-1899,128,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-2088.5;98.5;-2032;192;-2032;264;-1175.9961;264;-1175.9961;8;-424;8;-424;-120" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-2088.5;98.5;-2032;192;-2032;264;-1175.9961;264;-1175.9961;8;-504;8;-411.32422;9.602539;-410.32422;-66.396484;-413.8164;-83.39844;-414.3203;-121.896484" />
   </Item>
   <Item name="" identifier="junctionbox" ID="581" rect="297,211,54,90" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="junctionbox,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <PowerTransfer canbeoverloaded="True" overloadvoltage="1.7" fireprobability="0.15" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="ItemMsgInteractSelect" />
@@ -3291,7 +3292,7 @@
       <requireditem items="screwdriver" type="Equipped" optional="false" ignoreineditor="false" />
     </Repairable>
   </Item>
-  <Item name="" identifier="relaycomponent" ID="616" rect="-607,-11,15,13" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,signal,logic" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
+  <Item name="" identifier="relaycomponent" ID="616" rect="-613,-11,15,13" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,signal,logic" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <RelayComponent maxpower="3000" ison="False" canbeoverloaded="False" overloadvoltage="2" fireprobability="0.15" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="False" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
     <Holdable attached="True" holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="5" canbepicked="True" allowingameediting="True" msg="ItemMsgDetachWrench">
       <requireditem items="wrench" type="Equipped" optional="false" ignoreineditor="false" />
@@ -3363,15 +3364,15 @@
   <Structure name="Cable Holder Vertical" identifier="CableHolderVertical" ID="623" rect="-1184,256,16,192" specialtag="" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <Item name="" identifier="redwire" ID="624" rect="-2173,-77,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-584;-63;-584;-16;-599.5;-17.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-578;-64.31641;-578.4961;-16.316406;-605.5;-17.5" />
   </Item>
   <Item name="" identifier="redwire" ID="625" rect="-2172,-73,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-583;-145;-584;-16;-599.5;-17.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-580;-147.3164;-580.5;-17.316406;-605.5;-17.5" />
   </Item>
   <Item name="" identifier="redwire" ID="626" rect="-500,-43,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488;-24;-488;8;-1176;8;-1176;-104;-1744;-104;-1744;-173" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-480.4297;-13.464844;-480.92578;8.535156;-504;8;-1176;8;-1176;-104;-1744;-104;-1744;-173" />
   </Item>
   <Item name="" identifier="bluewire" ID="627" rect="214,458,48,20" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="" />
@@ -3379,11 +3380,11 @@
   </Item>
   <Item name="" identifier="redwire" ID="628" rect="-512,-113,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488;-112;-488;8;-584;8;-584;-79" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-481.92188;-119.96484;-483.42188;8.535156;-578;9.183594;-578.5;-79.31641" />
   </Item>
   <Item name="" identifier="redwire" ID="629" rect="-502,-114,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488;-112;-488;8;-584;8;-583;-145" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488.42188;-117.96484;-487.92188;10.035156;-504;8;-574.9961;9.183594;-575;-66.31641;-583;-145" />
   </Item>
   <Item name="" identifier="textdisplay" ID="630" rect="294,234,63,24" noninteractable="False" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.75" hiddeningame="False">
     <LightComponent range="10" castshadows="False" drawbehindsubs="False" ison="True" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="255,255,255,25" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -3398,7 +3399,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="632" rect="-498,-29,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488;-24;-487.9961;8;-424;8;-424;-120" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-493.42188;-16.464844;-493.3164;8.102539;-425.8164;6.602539;-425.8164;-55.398438;-422.3164;-84.89844;-422.8203;-119.89746" />
   </Item>
   <Item name="" identifier="textdisplay" ID="633" rect="-564,235,63,24" noninteractable="False" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.75" hiddeningame="False">
     <LightComponent range="10" castshadows="False" drawbehindsubs="False" ison="True" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="255,255,255,25" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -3410,11 +3411,11 @@
   </Item>
   <Item name="" identifier="redwire" ID="634" rect="-429,-146,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-616;-530;-616;-592;-392;-592;-392;-208;-424;-208;-424;-176" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-616;-530;-616;-592;-392;-592;-392;-208;-414.0586;-208.88867;-413.0586;-174.88867" />
   </Item>
   <Item name="" identifier="redwire" ID="635" rect="-453,-122,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-200;-520;-200;-592;-392;-592;-392;-208;-424;-208;-424;-176" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-200;-520;-200;-592;-392;-592;-392;-208;-418.0586;-207.38867;-418.5586;-174.38867" />
   </Item>
   <Item name="" identifier="redwire" ID="636" rect="-443,-131,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -3430,7 +3431,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="638" rect="-538,-443,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="841;-320;840;-248;584;-248;584;264;264;264;312;203" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="841;-320;840;-248;584;-248;584;264;304;264;312;200" />
   </Item>
   <Item name="" identifier="textdisplay" ID="639" rect="38,235,63,24" noninteractable="False" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.75" hiddeningame="False">
     <LightComponent range="10" castshadows="False" drawbehindsubs="False" ison="True" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="255,255,255,25" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -3450,7 +3451,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="641" rect="269,214,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1160;-96;1160;40;1144;40;1144;264;264;264;324;166" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1160;-96;1160;40;1144;40;1144;264;328;264;336;200" />
   </Item>
   <Item name="" identifier="lightfluorescentm02" ID="642" rect="1355,-260,40,56" noninteractable="False" rotation="0" scale="0.33" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <LightComponent range="800" castshadows="True" drawbehindsubs="False" ison="True" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0.4999999" blinkfrequency="0" lightcolor="255,240,170,100" isactive="True" minvoltage="0.5" powerconsumption="5" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -3476,16 +3477,16 @@
   </Item>
   <Item name="" identifier="redwire" ID="644" rect="-434,-33,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1752;470;1624;472;1624;520;584;520;584;264;-584;264;-584;8;-424;8;-424;-16" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1752;470;1624;472;1624;520;584;520;584;264;-560;264;-573.8867;267.36328;-574.3867;7.8632812;-560;8;-424;8;-424;-16" />
   </Item>
   <Item name="" identifier="redwire" ID="645" rect="-421,-38,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1624;472;1624;520;584;520;584;264;-584;264;-584;8;-424;8;-424;-16" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1624;472;1624;520;584;520;584;264;-560;264;-577.3867;264.86328;-576.3867;8.363281;-560;8;-424;8;-424;-16" />
   </Item>
   <WayPoint ID="646" x="63" y="-455" spawn="Path" linkedto0="662" linkedto1="1244" />
   <Item name="" identifier="redwire" ID="647" rect="-90,198,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-58.5;166;-56;251;8;251;-5;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-48;200;-56;264;-16;264;-8;200" />
   </Item>
   <Item name="" identifier="brownwire" ID="648" rect="-14,175,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="123,77,62,255" inventoryiconcolor="123,77,62,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -3497,27 +3498,27 @@
   </Item>
   <Item name="" identifier="redwire" ID="650" rect="-664,242,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-472;264;-616;264;8;264;59;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-496;264;72;264;80;200" />
   </Item>
   <Item name="" identifier="redwire" ID="651" rect="238,239,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="88;264;232;264;8;264;59;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="88;264;232;264;64;264;72;200" />
   </Item>
   <Item name="" identifier="redwire" ID="652" rect="1255,510,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="59;195;8;264;1112;264;1112;520;1280;520;1281;499.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="56;200;48;264;1112;264;1112;520;1280;520;1281;499.5" />
   </Item>
   <Item name="" identifier="redwire" ID="653" rect="836,245,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="131;195;72;264;856;264;856;240" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="144;200;136;264;856;264;856;240" />
   </Item>
   <Item name="" identifier="redwire" ID="654" rect="1733,268,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="131;195;72;264;1757.5;264.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="120;200;112;264;1757.5;264.5" />
   </Item>
   <Item name="" identifier="redwire" ID="655" rect="-800,234,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-787.5;171;-784;264;-544;264;-544;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-776;200;-784;264;-520;264;-512;200" />
   </Item>
   <Item name="" identifier="brownwire" ID="656" rect="-14,175,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="123,77,62,255" inventoryiconcolor="123,77,62,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -3525,11 +3526,11 @@
   </Item>
   <Item name="" identifier="redwire" ID="657" rect="-138,206,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="187;203;136;264;-1048;264;-1048;-360;-1192;-360;-1192;-392" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="184;200;176;264;-1048;264;-1048;-360;-1192;-360;-1192;-392" />
   </Item>
   <Item name="" identifier="redwire" ID="658" rect="689,515,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="187;203;136;264;584;264;584;520;504;520;505;521" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="192;200;184;264;584;264;584;520;504;520;505;521" />
   </Item>
   <Item name="" identifier="waterdetector" ID="659" rect="-598,-176,24,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,sensor" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <WaterDetector output="1" falseoutput="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -3548,30 +3549,30 @@
   </Item>
   <Item name="" identifier="redwire" ID="660" rect="876,529,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="251;195;200;264;584;264;584;520;895.5;520.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="248;200;240;264;584;264;584;520;895.5;520.5" />
   </Item>
   <Item name="" identifier="redwire" ID="661" rect="-28,226,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="251;195;200;264;584;264;584;520;1488;520;1488;504" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="264;200;256;264;584;264;584;520;1488;520;1488;504" />
   </Item>
   <WayPoint ID="662" x="213" y="-455" spawn="Path" linkedto0="646" linkedto1="663" linkedto2="1244" />
   <WayPoint ID="663" x="363" y="-455" spawn="Path" linkedto0="662" />
   <Item name="" identifier="redwire" ID="664" rect="1351,-17,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="251;195;200;264;584;264;584;-248;1368;-248;1368;-272" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="272;200;264;264;584;264;584;-248;1368;-248;1368;-272" />
   </Item>
   <Item name="" identifier="redwire" ID="665" rect="-437,-36,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1424;-238;-1424;-104;-1175.9961;-104.00098;-1175.9961;8;-424;8;-420.5;-52" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1424;-238;-1424;-104;-1175.9961;-104.00098;-1175.9961;8;-504;8;-415.3164;7.602539;-415.82422;-24.89746" />
   </Item>
   <Item name="" identifier="redwire" ID="666" rect="-1381,-186,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1364;-209.5;-1424;-208;-1424;-104.00098;-1175.9961;-104.00098;-1175.9961;8;-424;8;-420.5;-52" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1364;-209.5;-1424;-208;-1424;-104.00098;-1175.9961;-104.00098;-1175.9961;8;-504;8;-418.8164;11.102539;-416.82422;-51.39746" />
   </Item>
   <Structure name="Cable Holder Vertical" identifier="CableHolderVertical" ID="667" rect="1152,6,16,62" specialtag="" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <Item name="" identifier="redwire" ID="668" rect="-802,228,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488;-24;-488;8;-584;8;-584;264;-784;264;-784;208" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-480;-24;-488;8;-579.3867;8.363281;-579.3867;263.86328;-600;264;-776;264;-768;200" />
   </Item>
   <Item name="" identifier="fuelrod" ID="669" rect="-1764,-196,9,34" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,reactorfuel" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -3583,7 +3584,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="671" rect="-146,214,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1560;216;-1560;264;72;264;131;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1560;216;-1560;264;120;264;128;200" />
   </Item>
   <WayPoint ID="672" x="1504" y="352" spawn="Human" idcardtags="idcaptain" job="captain" />
   <Item name="" identifier="waterdetector" ID="673" rect="1995,-430,26,23" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,sensor" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.101" hiddeningame="False">
@@ -3684,7 +3685,7 @@
   <WayPoint ID="697" x="-383" y="-87" spawn="Path" linkedto0="689" linkedto1="716" linkedto2="1238" linkedto3="1241" />
   <Item name="" identifier="redwire" ID="698" rect="-541,218,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1728;-540;-1728;-576;-1048;-576.001;-1048;264;-544;264;-544;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1728;-540;-1728;-576;-1048;-576.001;-1048;264;-528;264;-520;200" />
   </Item>
   <Item name="" identifier="bluewire" ID="699" rect="696,-758,48,20" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -3933,11 +3934,11 @@
   </Item>
   <Item name="" identifier="bluewire" ID="850" rect="237,-219,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="280;-546;280;-592;-392;-592;-392;-208;-584;-208;-584;264;584;264;584;520;1624;520;1624;472;1752;472" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="280;-546;280;-592;-392;-592;-392;-208;-584;-208;-584;8;-586.3867;19.863281;-586.8867;263.36328;-560;264;584;264;584;520;1624;520;1624;472;1752;472" />
   </Item>
   <Item name="" identifier="bluewire" ID="851" rect="1691,436,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-200;-522;-200;-592;-392;-592;-392;-208;-584;-208;-584;264;584;264;584;520;1624;520;1624;472;1752;472" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-200;-522;-200;-592;-392;-592;-392;-208;-584;-208;-584;8;-580.8867;19.863281;-580.8867;265.36328;-560;264;584;264;584;520;1624;520;1624;472;1752;472" />
   </Item>
   <Item name="" identifier="bluewire" ID="852" rect="1713,425,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -3945,7 +3946,7 @@
   </Item>
   <Item name="" identifier="bluewire" ID="853" rect="1789,402,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1752;472;1624;472;1624;520;584;520;584;264;-584;264;-584;-16;-599.5;-17.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1752;472;1624;472;1624;520;584;520;584;264;-584;264;-584;-16;-605.5;-17.5" />
   </Item>
   <Item name="" identifier="vent" ID="854" rect="1382,-339,51,51" linked="276" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="vent" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.9" hiddeningame="False">
     <Vent pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -4295,7 +4296,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="903" rect="1887,369,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1904;336;1904;264;-352;264;-352;203" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1904;336;1904;264;-336;264;-328;200" />
   </Item>
   <Structure name="Large Inside Wall Cap H1" identifier="inwalllcaph1" ID="904" rect="1829,65,27,50" flippedx="true" flippedy="true" specialtag="" spritecolor="111,111,111,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.5" texturescale="1,1" textureoffset="0,0" noaitarget="True" disallowedupgrades="" spritedepth="0.03" hiddeningame="False" />
   <Item name="" identifier="oxygentank" ID="905" rect="-73,435,12,33" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,oxygensource" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
@@ -4329,11 +4330,11 @@
   </Item>
   <Item name="" identifier="redwire" ID="918" rect="-232,197,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-213;165;-200;264;984;264;982.5;101" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-216;200;-224;264;984;264;982.5;101" />
   </Item>
   <Item name="" identifier="redwire" ID="919" rect="-251,178,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-213;165;-200;264;728;264;726.5;101" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-208;200;-216;264;728;264;726.5;101" />
   </Item>
   <Structure name="Label Icon Engine" identifier="labelsiconengine" ID="920" rect="448,209,64,64" specialtag="" spritecolor="255,255,255,128" usedropshadow="False" dropshadowoffset="0,0" scale="0.1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <Item name="" identifier="textdisplay" ID="921" rect="1533,493,63,24" noninteractable="False" rotation="0" scale="1" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.849" hiddeningame="False">
@@ -4422,7 +4423,7 @@
   <Hull ID="971" rect="-1240,-560,144,32" water="0" linked="323" backgroundsections="" roomname="roomname.lowerdockingport" ambientlight="0,0,0,0" oxygen="4608" disallowedupgrades="" spritedepth="0.001" scale="0" hiddeningame="False" />
   <Item name="" identifier="redwire" ID="972" rect="-536,116,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-416;203;-416;264;584;264;584;8;1320;8;1320;-216;1304;-216;1304;-472;1568;-472;1568;-426" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-408;200;-416;264;584;264;584;8;1320;8;1320;-216;1304;-216;1304;-472;1568;-472;1568;-426" />
   </Item>
   <WayPoint ID="973" x="-1572" y="177" spawn="Path" ladders="46" linkedto0="908" linkedto1="974" linkedto2="362" />
   <WayPoint ID="974" x="-1573" y="210" spawn="Path" ladders="46" linkedto0="973" linkedto1="358" />
@@ -5012,11 +5013,11 @@
   <Structure name="Fin A Patch 1" identifier="finapatch01" ID="1092" rect="674,171,128,127" specialtag="" spritecolor="150,150,150,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.34" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.88" hiddeningame="False" />
   <Item name="" identifier="redwire" ID="1093" rect="-492,114,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-352;195;-352;264;584;264;584;39.999023;856;39.999023;858;86" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-344;200;-352;264;584;264;584;39.999023;856;39.999023;858;86" />
   </Item>
   <Item name="" identifier="redwire" ID="1094" rect="-488,122,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-352;195;-352;264;584;264;584;-472;456;-472;456;-432;464;-432" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-352;200;-360;264;584;264;584;-472;456;-472;456;-432;464;-432" />
   </Item>
   <Item name="" identifier="redwire" ID="1095" rect="-2018,-256,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -5345,7 +5346,7 @@
   <Structure name="Label Arrow Diagonal A" identifier="labelsarrowdiagonala" ID="1167" rect="934,166,44,44" specialtag="" spritecolor="255,255,255,128" usedropshadow="False" dropshadowoffset="0,0" scale="0.25" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <Item name="" identifier="redwire" ID="1168" rect="-621,195,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1020.5;-371.5;1020.5039;-248;584;-248;584;264;264;264;324;166" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1020.5;-371.5;1020.5039;-248;584;-248;584;264;312;264;320;200" />
   </Item>
   <Item name="" identifier="orcomponent" ID="1169" rect="1459,569,16,13" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,logic" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <OrComponent timeframe="0" output="1" falseoutput="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -5372,7 +5373,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="1171" rect="-617,165,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1456;-353;1456;-248;584;-248;584;264;264;264;324;166" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="1456;-353;1456;-248;584;-248;584;264;336;264;344;200" />
   </Item>
   <Item name="" identifier="orcomponent" ID="1172" rect="1423,587,16,13" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,logic" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <OrComponent timeframe="0" output="1" falseoutput="0" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -5757,7 +5758,7 @@
   </Item>
   <Item name="" identifier="bluewire" ID="1212" rect="-2141,-333,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-584.5;-79.5;-584;40;-554.5;38" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-584.5;-79.5;-588.5;-22.816406;-589;36.683594;-554.5;38" />
   </Item>
   <Item name="" identifier="bluewire" ID="1213" rect="1542,471,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -5765,7 +5766,7 @@
   </Item>
   <Item name="" identifier="bluewire" ID="1214" rect="1544,479,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-599.5;-17.5;-584;-16;-584;264;584;264;584;520;1568;520;1568;464" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-605.5;-17.5;-584;-16;-584;264;584;264;584;520;1568;520;1568;464" />
   </Item>
   <Structure name="Large Inside Wall Cap H2" identifier="inwalllcaph2" ID="1215" rect="2256,-192,52,48" specialtag="" spritecolor="111,111,111,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.5" texturescale="1,1" textureoffset="0,0" noaitarget="True" disallowedupgrades="" spritedepth="0.03" hiddeningame="False" />
   <Item name="" identifier="orcomponent" ID="1216" rect="289,552,16,13" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,logic" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
@@ -5978,16 +5979,16 @@
   <WayPoint ID="1248" x="98" y="-46" spawn="Path" linkedto0="1245" linkedto1="718" linkedto2="719" />
   <Item name="" identifier="redwire" ID="1249" rect="-543,216,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-302;340;-302;264;-544;264;-544;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-302;340;-302;264;-536;264;-528;200" />
   </Item>
   <Item name="" identifier="redwire" ID="1250" rect="-561,224,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="182;544;184;520;584;520;584;264;-544;264;-544;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="182;544;184;520;584;520;584;264;-544;264;-536;200" />
   </Item>
   <WayPoint ID="1251" x="498" y="-336" spawn="Path" ladders="127" linkedto0="1257" linkedto1="1497" />
   <Item name="" identifier="redwire" ID="1252" rect="-575,226,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1120;-584;-1048;-584;-1048;264;-544;264;-544;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1120;-584;-1048;-584;-1048;264;-552;264;-544;200" />
   </Item>
   <Item name="" identifier="redwire" ID="1253" rect="-1545,554,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
@@ -7205,15 +7206,15 @@
   </Item>
   <Item name="" identifier="redwire" ID="1428" rect="-543,115,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-416;203;-416;264;584;264;584;-472;723;-472;723;-425" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-416;200;-424;264;584;264;584;-472;723;-472;723;-425" />
   </Item>
   <Item name="" identifier="redwire" ID="1429" rect="-200,227,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="59;195;8;264;-1175.9961;264;-1175.9961;-104.00098;-1424;-104;-1424;-144;-1424.5;-143.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="64;200;56;264;-1175.9961;264;-1175.9961;-104.00098;-1424;-104;-1424;-144;-1424.5;-143.5" />
   </Item>
   <Item name="" identifier="redwire" ID="1430" rect="-1779,-120,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="187;203;136;264;-1175.9961;264;-1175.9961;-104.00098;-1760;-104.00098;-1758.5;-128.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="200;200;192;264;-1175.9961;264;-1175.9961;-104.00098;-1760;-104.00098;-1758.5;-128.5" />
   </Item>
   <Structure name="Label Arrow Horizontal B" identifier="labelsarrowhorizontalb" ID="1431" rect="465,-328,44,46" specialtag="" spritecolor="255,255,255,128" usedropshadow="False" dropshadowoffset="0,0" scale="0.1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <Structure name="Fin A Patch 1" identifier="finapatch01" ID="1432" rect="439,-313,128,127" specialtag="" spritecolor="150,150,150,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.34" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.885" hiddeningame="False" />
@@ -7351,11 +7352,11 @@
   </Item>
   <Item name="" identifier="redwire" ID="1486" rect="115,187,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="184;195;136;264;584;264;584;8;1160;8;1159.5;-16.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="208;200;200;264;584;264;584;8;1160;8;1159.5;-16.5" />
   </Item>
   <Item name="" identifier="redwire" ID="1487" rect="187,191,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="864;-16;864;8;584;8;584;264;200;264;248;195" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="864;-16;864;8;584;8;584;264;248;264;256;200" />
   </Item>
   <WayPoint ID="1488" x="1426" y="433" spawn="Path" gap="1276" linkedto0="756" linkedto1="757" />
   <WayPoint ID="1489" x="583" y="177" spawn="Path" gap="1279" linkedto0="1263" linkedto1="725" />
@@ -7488,7 +7489,7 @@
   <Structure name="Fin A Patch 1" identifier="finapatch01" ID="1533" rect="-768,-123,128,127" specialtag="" spritecolor="150,150,150,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.34" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.885" hiddeningame="False" />
   <Structure name="Label Icon Ballast" identifier="labelsiconballast" ID="1534" rect="-760,-128,64,64" specialtag="" spritecolor="255,255,255,128" usedropshadow="False" dropshadowoffset="0,0" scale="0.1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <WayPoint ID="1535" x="1408" y="-72" spawn="Cargo" />
-  <Structure name="Cable Holder Vertical" identifier="CableHolderVertical" ID="1536" rect="-592,257,16,201" specialtag="" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
+  <Structure name="Cable Holder Vertical 2" identifier="CableHolderVertical 2" ID="1536" rect="-598,24,27,80" crushdepth="0" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <Item name="" identifier="extinguisherbracket" ID="1537" rect="613,224,36,102" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="extinguisherholder" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.84" hiddeningame="False">
     <ItemContainer containablerestrictions="" autofill="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="ItemMsgInteractSelect" contained="1538" />
   </Item>
@@ -8099,7 +8100,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="1629" rect="-214,215,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="131;195;72;264;584;264;584;-248;1023.5;-248;1023.5;-269.5" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="136;200;128;264;584;264;584;-248;1023.5;-248;1023.5;-269.5" />
   </Item>
   <Item name="" identifier="emergencylight" ID="1630" rect="437,494,48,8" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <LightComponent range="250" castshadows="True" drawbehindsubs="False" ison="True" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="255,0,0,90" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
@@ -9320,7 +9321,7 @@
   </Item>
   <Item name="" identifier="wire" ID="1944" rect="-1612,-70,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="210,215,218,255" inventoryiconcolor="210,215,218,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1592.5;-80;-1592;-104.00098;-1175.9961;-104.00098;-1175.9961;264;-784;264;-784.5;139" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-1592.5;-80;-1592;-104.00098;-1175.9961;-104.00098;-1175.9961;264;-816;264;-808;200;-784.5;139" />
   </Item>
   <Item name="" identifier="windoweddoorwbuttons" ID="1945" rect="-708,16,24,208" linked="1950" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="door" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.51" hiddeningame="False">
     <Door openingspeed="5" closingspeed="3" togglecooldown="1" isopen="False" usebetweenoutpostmodules="True" pickingtime="10" canbepicked="True" allowingameediting="True" msg="ItemMsgForceOpenCrowbar">
@@ -9428,7 +9429,7 @@
   </Item>
   <Structure name="Label Arrow Vertical A" identifier="labelsarroverticala" ID="1957" rect="1894,424,44,44" flippedy="true" specialtag="" spritecolor="255,255,255,128" usedropshadow="False" dropshadowoffset="0,0" scale="0.1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <Structure name="Cable Holder Vertical" identifier="CableHolderVertical" ID="1958" rect="2000,8,16,464" specialtag="" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.84" hiddeningame="False" />
-  <Item name="" identifier="lightcomponent" ID="1959" rect="-576,-12,14,12" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,lightcomponent,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
+  <Item name="" identifier="lightcomponent" ID="1959" rect="-571,-12,14,12" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="smallitem,lightcomponent,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <LightComponent range="100" castshadows="False" drawbehindsubs="False" ison="False" flicker="0" flickerspeed="1" pulsefrequency="0" pulseamount="0" blinkfrequency="0" lightcolor="255,255,255,255" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="" />
     <Holdable attached="True" holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="5" canbepicked="True" allowingameediting="True" msg="ItemMsgDetachWrench">
       <requireditem items="wrench" type="Equipped" optional="false" ignoreineditor="false" />
@@ -9444,15 +9445,14 @@
       </input>
     </ConnectionPanel>
   </Item>
-  <Structure name="Cable Holder Horizontal" identifier="CableHolderHorizontal" ID="1960" rect="-1184,16,768,16" specialtag="" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="15,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
-  <Structure name="Cable Holder Vertical" identifier="CableHolderVertical" ID="1961" rect="-592,2,16,32" specialtag="" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
+  <Structure name="Cable Holder Horizontal" identifier="CableHolderHorizontal" ID="1960" rect="-1184,16,778,16" specialtag="" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="25,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
   <Item name="" identifier="bluewire" ID="1962" rect="-618,-6,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-599.5;-17.5;-569;-18" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-605.5;-17.5;-564;-18" />
   </Item>
   <Item name="" identifier="bluewire" ID="1963" rect="-586,-9,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="51,121,173,255" inventoryiconcolor="51,121,173,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-586;38;-586;-16;-569;-18" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-592.4961;36.183594;-591.9961;-18.316406;-564;-18" />
   </Item>
   <Item name="" identifier="junctionbox" ID="1964" rect="-448,-8,55,88" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="junctionbox,light" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.8" hiddeningame="False">
     <PowerTransfer canbeoverloaded="True" overloadvoltage="1.7" fireprobability="0.15" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="True" pickingtime="0" canbepicked="False" allowingameediting="True" msg="ItemMsgInteractSelect" />
@@ -9650,7 +9650,7 @@
   </Item>
   <Item name="" identifier="redwire" ID="1983" rect="-509,-49,42,16" noninteractable="False" rotation="0" scale="0.5" spritecolor="254,23,17,255" inventoryiconcolor="254,23,17,255" containercolor="255,255,255,255" condition="100" tags="smallitem,wire" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.55" hiddeningame="False">
     <Holdable holdpos="0,0" holdangle="0" swingamount="0,0" swingspeed="0" swingwhenholding="False" swingwhenaiming="False" swingwhenusing="False" pickingtime="0" canbepicked="True" allowingameediting="True" msg="ItemMsgPickUpSelect" />
-    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-488;-64;-488;-112" />
+    <Wire pickingtime="0" canbepicked="False" allowingameediting="True" msg="" nodes="-476.92188;-70.46484;-477.92188;-117.96484" />
   </Item>
   <Item name="" identifier="windoweddoorwbuttons" ID="1984" rect="-884,273,24,208" linked="1989" noninteractable="False" rotation="0" scale="0.5" spritecolor="255,255,255,255" inventoryiconcolor="255,255,255,255" containercolor="255,255,255,255" condition="100" tags="door" displaysidebysidewhenlinked="False" disallowedupgrades="" spritedepth="0.51" hiddeningame="False">
     <Door openingspeed="5" closingspeed="3" togglecooldown="1" isopen="False" usebetweenoutpostmodules="True" pickingtime="10" canbepicked="True" allowingameediting="True" msg="ItemMsgForceOpenCrowbar">
@@ -9876,4 +9876,7 @@
   <Structure name="Vent Pipe A5 90deg" identifier="ventpipea590deg" ID="2043" rect="-224,296,24,112" crushdepth="0" spritecolor="235,235,235,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.5" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.96" hiddeningame="False" />
   <Structure name="Vent Pipe A2 90deg" identifier="ventpipea290deg" ID="2044" rect="373,280,16,208" crushdepth="0" spritecolor="235,235,235,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.5" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.96" hiddeningame="False" />
   <Structure name="Vent Pipe A3 90deg" identifier="ventpipea390deg" ID="2045" rect="359,296,12,240" crushdepth="0" spritecolor="235,235,235,255" usedropshadow="False" dropshadowoffset="0,0" scale="0.5" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.96" hiddeningame="False" />
+  <Structure name="Cable Holder Vertical 2" identifier="CableHolderVertical 2" ID="2046" rect="-497,2,27,122" crushdepth="0" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,-10" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
+  <Structure name="Cable Holder Vertical 2" identifier="CableHolderVertical 2" ID="2047" rect="-433,2,27,202" crushdepth="0" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,-10" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
+  <Structure name="Cable Holder Vertical 2" identifier="CableHolderVertical 2" ID="2048" rect="-593,264,27,208" crushdepth="0" spritecolor="255,255,255,255" usedropshadow="False" dropshadowoffset="0,0" scale="1" texturescale="1,1" textureoffset="0,0" noaitarget="False" disallowedupgrades="" spritedepth="0.85" hiddeningame="False" />
 </Submarine>
